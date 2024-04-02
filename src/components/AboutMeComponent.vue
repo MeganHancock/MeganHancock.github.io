@@ -1,7 +1,7 @@
 <template>
     <section class="row">
         <div class="col-md-6 col-12 d-flex justify-content-center align-items-center mb-5">
-            <img src="src\assets\img\portfoliopic.jpg" alt="portfolio picture" class="rounded-3">
+            <img src="../assets/img/portfoliopic.jpg" alt="portfolio picture" class="rounded-3">
         </div>
         <div class="col-md-6 d-flex justify-content-center align-items-center mb-5">
             <div>
@@ -92,7 +92,8 @@
 <script>
 export default {
     setup() {
-        return {}
+        return {
+        }
     }
 }
 </script>
