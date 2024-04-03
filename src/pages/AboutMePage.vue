@@ -112,7 +112,7 @@ export default {
 
 <style lang="scss" scoped>
 img {
-  max-height: 45vh;
+  max-height: 55vh;
   object-fit: cover;
   aspect-ratio: 1.5/2;
 }

@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as t}from"./index-RehztocD.js";const o="/assets/MeganHancockResume-a7LyC4JW.pdf",c={setup(){return{}}},a={src:o,alt:""};function n(r,_,p,m,u,f){return s(),t("img",a)}const d=e(c,[["render",n]]);export{d as default};
