@@ -9,6 +9,7 @@
   <footer class=" mt-4 dark-bg sticky-bottom">
     <IconsComponent />
   </footer>
+  <ModalComponent />
 
 </template>
 
@@ -16,6 +17,8 @@
 import { computed } from 'vue'
 import { AppState } from './AppState'
 import IconsComponent from './components/IconsComponent.vue'
+import ModalComponent from './components/ModalComponent.vue';
+import HeaderComponent from './components/HeaderComponent.vue';
 
 export default {
   setup() {
@@ -23,7 +26,7 @@ export default {
       appState: computed(() => AppState)
     }
   },
-  components: { IconsComponent }
+  components: { IconsComponent, ModalComponent, HeaderComponent }
 }
 </script>
 <style lang="scss">

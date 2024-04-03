@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as s,b as o}from"./index-zLbnYdb1.js";const a={setup(){return{}}},c={class:"about"},n=o("h1",null,"This is the about page",-1),r=[n];function _(i,p,u,d,h,l){return t(),s("div",c,r)}const b=e(a,[["render",_]]);export{b as default};

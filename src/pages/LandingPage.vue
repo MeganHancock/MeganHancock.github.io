@@ -1,8 +1,8 @@
 <template>
-    <div class="container-fluid page-container mb-md-5">
-        <section class="row ">
+    <div class="container-fluid page-container mt-md-5 ">
+        <section class="row align-items-center">
 
-            <div class="col-12 d-flex justify-content-center align-items-center">
+            <div class="col-12 d-flex justify-content-center align-items-center mb-md-5">
                 <div>
                     <p class="sub-text">hi, I'm</p><br>
                     <h1 class="title-text">Megan Hancock</h1><br>
@@ -14,14 +14,7 @@
         </section>
 
     </div>
-
-    <div class="container page-container mb-md-5 mt-md-5" id="aboutMe">
-
-
-        <AboutMeComponent />
-
-
-    </div>
+    <!-- 
 
     <div class="container  page-container mt-md-5 mb-md-5" id="applications">
         <section class="row justify-content-center">
@@ -29,29 +22,33 @@
         </section>
     </div>
 
-    <div class="container" id="contactMe">
+    <div class="container page-container mb-md-5 mt-md-5" id="aboutMe">
+        <AboutMeComponent />
+    </div>
+
+    <div class="container mt-md-5" id="contactMe">
 
         <ContactComponent />
 
     </div>
 
 
-    <ModalComponent />
+    <ModalComponent /> -->
 </template>
 
 
 <script>
-import AboutMeComponent from '../components/AboutMeComponent.vue'
-import ApplicationsComponent from '../components/ApplicationsComponent.vue'
-import ContactComponent from '../components/ContactComponent.vue'
-import ModalComponent from '../components/ModalComponent.vue'
+// import AboutMeComponent from '../components/AboutMeComponent.vue'
+// import ApplicationsComponent from '../components/ApplicationsComponent.vue'
+// import ContactComponent from '../components/ContactComponent.vue'
+// import ModalComponent from '../components/ModalComponent.vue'
 
 
 export default {
     setup() {
         return {}
     },
-    components: { AboutMeComponent, ApplicationsComponent, ContactComponent, ModalComponent }
+    // components: { AboutMeComponent, ApplicationsComponent, ContactComponent, ModalComponent }
 
 }
 </script>
@@ -77,7 +74,7 @@ export default {
 
 .page-container {
     position: relative;
-    min-height: 90vh;
+    height: 50vh;
 }
 
 

@@ -11,6 +11,16 @@ const routes = [
     name: 'Landing',
     component: loadPage('LandingPage')
   },
+  {
+    path: '/applications',
+    name: 'applications',
+    component: loadPage('ApplicationsPage')
+  },
+  {
+    path: '/aboutMe',
+    name: 'aboutMe',
+    component: loadPage('AboutMePage')
+  },
   // {
   //   path: '/',
   //   name: 'Home',
