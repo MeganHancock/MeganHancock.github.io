@@ -65,8 +65,10 @@ img {
 
 .page-container {
     position: relative;
-    // height: 80vh;
+    // height: 100vh;
 }
+
+
 
 .app-card:hover {
     transition: transform .2s;
