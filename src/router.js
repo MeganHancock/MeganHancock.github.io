@@ -21,6 +21,11 @@ const routes = [
     name: 'aboutMe',
     component: loadPage('AboutMePage')
   },
+  {
+    path: '/resume',
+    name: 'resume',
+    component: loadPage('ResumePage')
+  },
   // {
   //   path: '/',
   //   name: 'Home',

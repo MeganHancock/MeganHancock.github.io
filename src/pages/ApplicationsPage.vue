@@ -65,7 +65,7 @@ img {
 
 .page-container {
     position: relative;
-    height: 50vh;
+    // height: 80vh;
 }
 
 .app-card:hover {
