@@ -35,7 +35,8 @@
             <div class="col-12">
                 <p class="text-center mb-5 pb-2"><span class="subtle">hi, I'm </span><span class="louder">Megan
                         Hancock</span><span class="subtle">,
-                        and I'm a </span><span class="louder">software developer.</span></p>
+                        and I'm a </span><span class="louder">software developer.</span><br><span class="subtle">here is
+                        some of my work:</span></p>
             </div>
 
             <div role="button" class="col-12 col-md-4 app-card w-md-75 mb-5 " title="Click for application details 🌷"
