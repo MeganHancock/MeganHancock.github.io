@@ -4,11 +4,10 @@
                 class="fa fa-linkedin my-2 mx-4"></i></a>
         <a href="https://github.com/MeganHancock" target="_blank" title="Visit my GitHub">
             <i class="fa fa-github my-2 mx-4"></i></a>
-        <a href="src\assets\img\MeganHancockResume.pdf" target="_blank" title="View my resume">
+        <a href="/MeganHancockResume.pdf" target="_blank" title="View my resume">
             <i class="fa fa-file my-2 mx-4"></i></a>
     </div>
 </template>
-
 
 <script>
 export default {
