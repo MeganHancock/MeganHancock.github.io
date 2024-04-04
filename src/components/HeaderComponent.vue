@@ -1,8 +1,8 @@
 <template>
 
     <div class="d-flex justify-content-evenly">
-        <a class="m-3" href="#/">home</a>
-        <a class="m-3" href="#applications">applications</a>
+        <!-- <a class="m-3" href="#/">home</a> -->
+        <a class="m-3" href="">applications</a>
         <a class="m-3" href="#aboutMe">about me</a>
         <!-- <a class="m-3" href="">get in touch</a> -->
     </div>

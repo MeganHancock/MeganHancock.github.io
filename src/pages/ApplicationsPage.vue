@@ -1,12 +1,44 @@
 <template>
     <div class="container  page-container mt-md-4 mb-md-5" id="applications">
         <section class="row justify-content-center">
-            <div class="col-md-12">
+            <!-- <div class="col-md-12">
                 <p class="sub-text">applications</p><br>
+            </div> -->
+
+            <!-- 
+            <div class="col-12  mb-md-5">
+                <div>
+                    <p><span class="subtle">Hi, I'm</span><br>
+                        <span class="louder">Megan Hancock</span>
+                    </p>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <div>
+                            <span class="subtle">and I'm a
+                            </span><br><br>
+                            <span class="louder">software developer.</span>
+                        </div>
+                    </div>
+                    <div><span class="subtle">Here is some of my work:</span>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- <div class="col-9">
+                <p class="subtle p-0 m-0">hi, my name is </p>
+                <p class="louder p-0 m-0 ms-5">Megan Hancock,</p>
+                <div class="d-flex justify-content-end">
+                    <p class="subtle p-0 m-0">and I'm a </p>
+                    <p class="louder p-0 m-0">software developer</p><br>
+                </div>
+                <p class="subtle p-0 m-0">here is some of my work:</p>
+            </div> -->
+            <div class="col-12">
+                <p class="text-center mb-5 pb-2"><span class="subtle">hi, I'm </span><span class="louder">Megan
+                        Hancock</span><span class="subtle">,
+                        and I'm a </span><span class="louder">software developer.</span></p>
             </div>
 
-
-            <div role="button" class="col-12 col-md-4 app-card w-md-75 mb-5" title="Click for application details 🌷"
+            <div role="button" class="col-12 col-md-4 app-card w-md-75 mb-5 " title="Click for application details 🌷"
                 data-bs-toggle="modal" data-bs-target="#digInModal">
                 <img src="../assets/img/digin.png" alt="dig in image" class="rounded shadow">
                 <p class="app-title pb-0 mb-0">Dig In!</p>
@@ -61,13 +93,26 @@ export default {
 
 
 <style lang="scss" scoped>
-.sub-text {
+body {
+    background-color: lightgray;
+}
+
+.subtle {
     color: darkgray;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: bold;
     font-style: normal;
-    font-size: 5vh;
+    font-size: 2vh;
+}
+
+.louder {
+    color: var(--darkest);
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 4.9vh;
 }
 
 img {

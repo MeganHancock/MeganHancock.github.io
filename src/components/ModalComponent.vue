@@ -92,8 +92,7 @@
                             user authentication with Auth0.
                             Users can
                             create to-dos and store them on an external API. The home page also features random scenic
-                            backgrounds, rotating inspiring quotes, live weather, and date and time. Self hosted on AWS.
-                        </p>
+                            backgrounds, rotating inspiring quotes, live weather, and date and time. Self hosted on AWS.</p>
                     </div>
                     <div class="d-flex justify-content-evenly mt-4 flex-wrap">
                         <p class="stack aws rounded-5 p-2 fw-bold">AWS</p>

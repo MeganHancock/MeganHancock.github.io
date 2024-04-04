@@ -6,13 +6,13 @@ function loadPage(page) {
 }
 
 const routes = [
+  // {
+  //   path: '/',
+  //   name: 'Landing',
+  //   component: loadPage('LandingPage')
+  // },
   {
     path: '/',
-    name: 'Landing',
-    component: loadPage('LandingPage')
-  },
-  {
-    path: '/applications',
     name: 'applications',
     component: loadPage('ApplicationsPage')
   },
