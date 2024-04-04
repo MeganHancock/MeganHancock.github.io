@@ -1,5 +1,39 @@
 <template>
-    <!-- //NOTE - TOWER MODAL -->
+    <!-- //NOTE - DIG IN MODAL -->
+    <div class="modal fade" id="digInModal" tabindex="-1" aria-labelledby="digInLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+
+                <div class="modal-body pt-0 px-0">
+                    <img src="../assets/img/digin.png" alt="Go Out! image" class="rounded-top">
+                    <div class="mx-4">
+                        <p class="app-title pb-0 mb-0">Dig In!</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="https://github.com/MeganHancock/dig_in" target="_blank" class="mb-3 mx-2">View
+                                Code</a>
+                            <!-- TODO ADD LIVE APPLICATION -->
+                            <a href="https://github.com/MeganHancock/dig_in" target="_blank" class="mb-3 mx-2">View
+                                App</a>
+                        </div>
+                        <p class="app-sub-title mb-2">Dig In is a a full stack application used to create, share, and
+                            save recipes. This was built utilizing a Vue.js frontend and on the server side the DotNet
+                            WebApi, Auth0 for user management, Dapper as an ORM, and a MySQL server. This application is
+                            self hosted on AWS.</p>
+                    </div>
+                    <div class="d-flex justify-content-evenly mt-4 flex-wrap">
+                        <p class="stack aws rounded-5 p-2 fw-bold">AWS</p>
+                        <p class="stack vue rounded-5 p-2 fw-bold">Vue.js</p>
+                        <p class="stack csharp rounded-5 p-2 fw-bold">C#</p>
+                        <p class="stack mysql rounded-5 p-2 fw-bold">MySQL</p>
+                        <p class="stack dapper rounded-5 p-2 fw-bold">Dapper</p>
+                        <p class="stack auth rounded-5 p-2 fw-bold">Auth0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NOTE go out modal -->
     <div class="modal fade" id="goOutModal" tabindex="-1" aria-labelledby="towerModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
@@ -15,18 +49,23 @@
                             <a href="https://github.com/MeganHancock/goOut" target="_blank" class="mb-3 mx-2">View
                                 App</a>
                         </div>
-                        <p class="app-sub-title mb-2">Go Out is a community event app built using Vue, Express, Node.js,
-                            MongoDB, and
-                            Mongoose. Users may create events as well as browse local events by category, RSVP to them,
+                        <p class="app-sub-title mb-2">Go Out is a community event app built using Vue.js, Express with
+                            Node.js,
+                            MongoDB with
+                            Mongoose, and Auth0 for user management. Users may create events as well as browse local
+                            events by category, RSVP to them,
                             and leave
-                            comments to interact with other attendees.</p>
+                            comments to interact with other attendees. This application is self hosted on AWS.</p>
                     </div>
                     <div class="d-flex justify-content-evenly mt-4 flex-wrap">
+                        <p class="stack aws rounded-5 p-2 fw-bold">AWS</p>
                         <p class="stack vue rounded-5 p-2 fw-bold">Vue.js</p>
                         <p class="stack express rounded-5 p-2 fw-bold">Express.js</p>
                         <p class="stack node rounded-5 p-2 fw-bold">Node.js</p>
                         <p class="stack mongo rounded-5 p-2 fw-bold">MongoDB</p>
                         <p class="stack mongoose rounded-5 p-2 fw-bold">Mongoose</p>
+                        <p class="stack auth rounded-5 p-2 fw-bold">Auth0</p>
+
                     </div>
                 </div>
             </div>
@@ -46,17 +85,23 @@
                             <a href="https://github.com/MeganHancock/inspire" target="_blank" class="mb-3 mx-2">View
                                 Code</a>
                             <!-- TODO ADD LIVE APPLICATION -->
-                            <a href="" target="_blank" class="mb-3 mx-2">View App</a>
+                            <a href="https://github.com/MeganHancock/inspire" target="_blank" class="mb-3 mx-2">View
+                                App</a>
                         </div>
-                        <p class="app-sub-title mb-2">Inspire to-do app built using JavaScript and the MVC pattern.
+                        <p class="app-sub-title mb-2">Inspire to-do app built using JavaScript and the MVC pattern and
+                            user authentication with Auth0.
                             Users can
                             create to-dos and store them on an external API. The home page also features random scenic
-                            backgrounds, rotating inspiring quotes, live weather, and date and time.</p>
+                            backgrounds, rotating inspiring quotes, live weather, and date and time. Self hosted on AWS.
+                        </p>
                     </div>
                     <div class="d-flex justify-content-evenly mt-4 flex-wrap">
+                        <p class="stack aws rounded-5 p-2 fw-bold">AWS</p>
                         <p class="stack javascript rounded-5 p-2 fw-bold">JavaScript</p>
                         <p class="stack html rounded-5 p-2 fw-bold">HTML5</p>
                         <p class="stack css rounded-5 p-2 fw-bold">CSS3</p>
+                        <p class="stack auth rounded-5 p-2 fw-bold">Auth0</p>
+
                     </div>
                 </div>
             </div>
@@ -205,6 +250,27 @@ a:hover {
 .css {
     background-color: #2e4ad7;
 }
+
+.aws {
+    background-color: #ec912d;
+}
+
+.dapper {
+    background-color: #001425;
+}
+
+.csharp {
+    background-color: #6647d1;
+}
+
+.auth {
+    background-color: #eb5424;
+}
+
+.mysql {
+    background-color: #005d88;
+}
+
 
 .fine-print {
     font-size: 16px;

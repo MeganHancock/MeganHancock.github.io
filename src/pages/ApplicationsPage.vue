@@ -4,19 +4,33 @@
             <div class="col-md-12">
                 <p class="sub-text">applications</p><br>
             </div>
+
+
+            <div role="button" class="col-12 col-md-4 app-card w-md-75 mb-5" title="Click for application details 🌷"
+                data-bs-toggle="modal" data-bs-target="#digInModal">
+                <img src="../assets/img/digin.png" alt="dig in image" class="rounded shadow">
+                <p class="app-title pb-0 mb-0">Dig In!</p>
+                <p class="app-sub-title">A fullstack recipe sharing app built using Vue, C#, and MySQL. Self hosted with
+                    AWS.
+                </p>
+            </div>
+
             <div role="button" class="col-12 col-md-4 app-card w-md-75 mb-5" title="Click for application details 🌷"
                 data-bs-toggle="modal" data-bs-target="#goOutModal">
                 <img src="../assets/img/tower.png" alt="Go Out! image" class="rounded shadow">
                 <p class="app-title pb-0 mb-0">Go Out!</p>
-                <p class="app-sub-title">A community event app built using Vue, Express, Node.js, MongoDB, and Mongoose
-                    .</p>
+                <p class="app-sub-title">A fullstack community event app built using Vue, Express, Node.js, MongoDB, and
+                    Mongoose.
+                    Self hosted with AWS.</p>
             </div>
 
             <div role="button" class="col-12 col-md-4 app-card w-md-75 mb-5" title="Click for application details 🌹"
                 data-bs-toggle="modal" data-bs-target="#inspireModal">
                 <img src="../assets/img/inspire.png" alt="jot image" class="rounded shadow">
                 <p class="app-title pb-0 mb-0">Inspire</p>
-                <p class="app-sub-title">A to-do app built using JavaScript and the MVC pattern.</p>
+                <p class="app-sub-title">A fullstack to-do app built using JavaScript and the MVC pattern. Self hosted
+                    with AWS.
+                </p>
             </div>
 
             <div role="button" class="col-12 col-md-4 app-card w-md-75" title="Click for application details 🪻"
