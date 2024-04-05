@@ -12,8 +12,10 @@
                             <a href="https://github.com/MeganHancock/dig_in" target="_blank" class="mb-3 mx-2">View
                                 Code</a>
                             <!-- TODO ADD LIVE APPLICATION -->
-                            <a href="https://github.com/MeganHancock/dig_in" target="_blank" class="mb-3 mx-2">View
-                                App</a>
+                            <!-- <a href="https://github.com/MeganHancock/dig_in" target="_blank" class="mb-3 mx-2">View
+                                App</a> -->
+                            <p class="text-center ms-1" style="">Live App Under<br> Construction</p>
+
                         </div>
                         <p class="app-sub-title mb-2">Dig In is a a full stack application used to create, share, and
                             save recipes. This was built utilizing a Vue.js frontend and on the server side the DotNet
@@ -46,8 +48,10 @@
                             <a href="https://github.com/MeganHancock/goOut" target="_blank" class="mb-3 mx-2">View
                                 Code</a>
                             <!-- TODO ADD LIVE APPLICATION -->
-                            <a href="https://github.com/MeganHancock/goOut" target="_blank" class="mb-3 mx-2">View
-                                App</a>
+                            <!-- <a href="https://github.com/MeganHancock/goOut" target="_blank" class="mb-3 mx-2">View
+                                App</a> -->
+                            <p class="text-center ms-1" style="">Live App Under<br> Construction</p>
+
                         </div>
                         <p class="app-sub-title mb-2">Go Out is a community event app built using Vue.js, Express with
                             Node.js,
@@ -85,14 +89,17 @@
                             <a href="https://github.com/MeganHancock/inspire" target="_blank" class="mb-3 mx-2">View
                                 Code</a>
                             <!-- TODO ADD LIVE APPLICATION -->
-                            <a href="https://github.com/MeganHancock/inspire" target="_blank" class="mb-3 mx-2">View
-                                App</a>
+                            <!-- <a href="https://github.com/MeganHancock/inspire" target="_blank" class="mb-3 mx-2">View
+                                App</a> -->
+                            <p class="text-center ms-1">Live App Under<br>Construction</p>
+
                         </div>
                         <p class="app-sub-title mb-2">Inspire to-do app built using JavaScript and the MVC pattern and
                             user authentication with Auth0.
                             Users can
                             create to-dos and store them on an external API. The home page also features random scenic
-                            backgrounds, rotating inspiring quotes, live weather, and date and time. Self hosted on AWS.</p>
+                            backgrounds, rotating inspiring quotes, live weather, and date and time. Self hosted on AWS.
+                        </p>
                     </div>
                     <div class="d-flex justify-content-evenly mt-4 flex-wrap">
                         <p class="stack aws rounded-5 p-2 fw-bold">AWS</p>
@@ -119,7 +126,7 @@
                         <div class="d-flex justify-content-center">
                             <a href="https://github.com/MeganHancock/jot" target="_blank" class="mb-3 mx-2">View
                                 Code</a>
-
+                            <!-- <p class="text-center ms-1" style="">Live App Under<br> Construction</p> -->
                             <a href="https://meganhancock.github.io/jot/" target="_blank" class="mb-3 mx-2">View App</a>
                         </div>
                         <p class="app-sub-title mb-2">Jot is note taking app built using JavaScript, and it was the
