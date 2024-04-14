@@ -119,7 +119,7 @@
             <div class="modal-content">
 
                 <div class="modal-body pt-0 px-0">
-                    <img src="../assets/img/jot.png" alt="Jot image" class="rounded-top">
+                    <img src="../assets/img/bigjotedit.png" alt="Jot image" class="rounded-top">
                     <div class="mx-4">
                         <p class="app-title pb-0 mb-0">Jot</p>
                         <div class="d-flex justify-content-center">
