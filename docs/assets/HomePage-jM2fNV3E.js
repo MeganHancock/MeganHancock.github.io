@@ -1,0 +1,1 @@
+import{_ as e,o as t,c}from"./index-j3FTrPJh.js";const o={setup(){return{}}},s={class:"container"};function a(n,r,_,p,d,i){return t(),c("div",s)}const u=e(o,[["render",a],["__scopeId","data-v-c8d96c83"]]);export{u as default};

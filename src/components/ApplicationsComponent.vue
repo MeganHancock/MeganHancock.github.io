@@ -18,7 +18,7 @@
 
     <div role="button" class="col-12 col-md-4 app-card w-md-75" title="Click for application details 🪻"
         data-bs-toggle="modal" data-bs-target="#jotModal">
-        <img src="../assets/img/jot.png" alt="jot image" class="rounded shadow">
+        <img src="../assets/img/bigjotedit.png" alt="jot image" class="rounded shadow">
         <p class="app-title pb-0 mb-0">Jot</p>
         <p class="app-sub-title">A note taking app built using JavaScript and the MVC pattern.</p>
     </div>
