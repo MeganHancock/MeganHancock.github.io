@@ -12,9 +12,8 @@
                             <a href="https://github.com/MeganHancock/dig_in" target="_blank" class="mb-3 mx-2">View
                                 Code</a>
                             <!-- TODO ADD LIVE APPLICATION -->
-                            <!-- <a href="https://github.com/MeganHancock/dig_in" target="_blank" class="mb-3 mx-2">View
-                                App</a> -->
-                            <p class="text-center ms-1" style="">Live App Under<br> Construction</p>
+                            <a href="https://digin.mgnhnck.com/#/" target="_blank" class="mb-3 mx-2">View
+                                App</a>
 
                         </div>
                         <p class="app-sub-title mb-2">Dig In is a a full stack application used to create, share, and
@@ -89,21 +88,20 @@
                             <a href="https://github.com/MeganHancock/inspire" target="_blank" class="mb-3 mx-2">View
                                 Code</a>
                             <!-- TODO ADD LIVE APPLICATION -->
-                            <!-- <a href="https://github.com/MeganHancock/inspire" target="_blank" class="mb-3 mx-2">View
-                                App</a> -->
-                            <p class="text-center ms-1">Live App Under<br>Construction</p>
+                            <a href="https://meganhancock.github.io/inspire/" target="_blank" class="mb-3 mx-2">View
+                                App</a>
 
                         </div>
                         <p class="app-sub-title mb-2">Inspire to-do app built using JavaScript and the MVC pattern and
                             user authentication with Auth0.
                             Users can
                             create to-dos and store them on an external API. The home page also features random scenic
-                            backgrounds, rotating inspiring quotes, live weather, and date and time. Self hosted on AWS.
+                            backgrounds, rotating inspiring quotes, live weather, and date and time.
                         </p>
                     </div>
                     <div class="d-flex justify-content-evenly mt-4 flex-wrap">
-                        <p class="stack aws rounded-5 p-2 fw-bold">AWS</p>
                         <p class="stack javascript rounded-5 p-2 fw-bold">JavaScript</p>
+                        <p class="stack bootstrap rounded-5 p-2 fw-bold">Bootstrap</p>
                         <p class="stack html rounded-5 p-2 fw-bold">HTML5</p>
                         <p class="stack css rounded-5 p-2 fw-bold">CSS3</p>
                         <p class="stack auth rounded-5 p-2 fw-bold">Auth0</p>
@@ -135,6 +133,7 @@
                     </div>
                     <div class="d-flex justify-content-evenly mt-4 flex-wrap">
                         <p class="stack javascript rounded-5 p-2 fw-bold">JavaScript</p>
+                        <p class="stack bootstrap rounded-5 p-2 fw-bold">Bootstrap</p>
                         <p class="stack html rounded-5 p-2 fw-bold">HTML5</p>
                         <p class="stack css rounded-5 p-2 fw-bold">CSS3</p>
                     </div>
@@ -159,8 +158,9 @@
                             <a href="https://meganhancock.github.io/flower_frenzy/" target="_blank"
                                 class="mb-3 mx-2">View App</a>
                         </div>
-                        <p class="app-sub-title mb-2">Flower Frenzy is a basic clicker-game built using basic HTML, CSS
-                            and JavaScript. The only thing remarkable about this app (aside from how darn cute it is) is
+                        <p class="app-sub-title mb-2">Flower Frenzy is a basic clicker-game built using basic HTML, CSS,
+                            Bootstrap,
+                            and JavaScript. The most remarkable aspect of this app (aside from how darn cute it is) is
                             how far my skill level has come since it's completion.<span class="fine-print"> (Not
                                 suitable for mobile -
                                 <b>yet</b>)</span>
@@ -168,6 +168,7 @@
                     </div>
                     <div class="d-flex justify-content-evenly mt-4 flex-wrap">
                         <p class="stack javascript rounded-5 p-2 fw-bold">JavaScript</p>
+                        <p class="stack bootstrap rounded-5 p-2 fw-bold">Bootstrap</p>
                         <p class="stack html rounded-5 p-2 fw-bold">HTML5</p>
                         <p class="stack css rounded-5 p-2 fw-bold">CSS3</p>
                     </div>
@@ -221,6 +222,7 @@ a:hover {
 .stack {
     color: white;
     font-size: 2vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .vue {
@@ -275,6 +277,10 @@ a:hover {
 
 .mysql {
     background-color: #005d88;
+}
+
+.bootstrap {
+    background-color: #8011f5;
 }
 
 
