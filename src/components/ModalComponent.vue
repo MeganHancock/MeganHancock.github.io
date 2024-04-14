@@ -40,16 +40,17 @@
             <div class="modal-content">
 
                 <div class="modal-body pt-0 px-0">
-                    <img src="../assets/img/tower.png" alt="Go Out! image" class="rounded-top">
+                    <img src="../assets/img/go.png" alt="Go Out! image" class="rounded-top">
                     <div class="mx-4">
                         <p class="app-title pb-0 mb-0">Go Out!</p>
                         <div class="d-flex justify-content-center">
                             <a href="https://github.com/MeganHancock/goOut" target="_blank" class="mb-3 mx-2">View
                                 Code</a>
                             <!-- TODO ADD LIVE APPLICATION -->
-                            <!-- <a href="https://github.com/MeganHancock/goOut" target="_blank" class="mb-3 mx-2">View
-                                App</a> -->
-                            <p class="text-center ms-1" style="">Live App Under<br> Construction</p>
+                            <a href="https://github.com/MeganHancock/goOut" target="_blank" class="mb-3 mx-2 disabled"
+                                title="LIVE APP UNDER CONSTRUCTION">View
+                                App</a>
+                            <!-- <p class="text-center ms-1" style="">Live App Under<br> Construction</p> -->
 
                         </div>
                         <p class="app-sub-title mb-2">Go Out is a community event app built using Vue.js, Express with
@@ -211,6 +212,16 @@ a {
     color: var(--darkest);
     text-shadow: 3px 3px var(--light-accent);
     font-size: 2.5vh;
+
+}
+
+.disabled {
+    color: rgb(48, 49, 49);
+    text-decoration: line-through;
+    text-shadow: none !important;
+    text-shadow: none !important;
+
+
 
 }
 

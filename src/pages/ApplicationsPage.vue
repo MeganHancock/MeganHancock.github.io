@@ -61,8 +61,7 @@
                 data-bs-toggle="modal" data-bs-target="#inspireModal">
                 <img src="../assets/img/inspire.png" alt="jot image" class="rounded shadow">
                 <p class="app-title pb-0 mb-0">Inspire</p>
-                <p class="app-sub-title">A to-do app built using JavaScript and the MVC pattern. Self hosted
-                    with AWS.
+                <p class="app-sub-title">A to-do app built using JavaScript and the MVC pattern.
                 </p>
             </div>
 
