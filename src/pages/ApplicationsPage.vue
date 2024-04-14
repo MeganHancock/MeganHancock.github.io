@@ -98,7 +98,7 @@ body {
 }
 
 .subtle {
-    color: darkgray;
+    color: rgb(130, 128, 128);
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: bold;
