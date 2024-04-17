@@ -62,12 +62,11 @@
           learning, until I decided to dive into the software development industry. I immediately felt at home
           exploring an industry that no matter how hard you try, there will always be more to learn. I was hooked!
           <br><br>
-          After completing freeCodeCamp's 300 hour course for Responsive Web Design, I was eager for more, and I
-          became a enrolled at CodeWorks software development boot camp. This was no easy feat, as I was living a
-          very comfortable life as a legal assistant, but one has to do what one has to do! I dedicated my
-          mornings and evenings to teaching myself software development, and weekend to working a part time job to be
-          able to afford school
-          sooner. I saved for months,
+          After completing freeCodeCamp's 300 hour course for Responsive Web Design, I was eager for more, began the
+          process of enrolling at CodeWorks software development training program. I dedicated my
+          mornings and evenings to teaching myself foundational software development, and weekends to working a part
+          time job to be
+          able to afford school sooner. I saved for months,
           moved in with roommates, and quit my job to become a full time student.<br><br>
 
 
